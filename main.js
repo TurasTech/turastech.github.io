@@ -21,40 +21,28 @@ $(window).load(function() {
   }
 
   for (var i = 0; i < paths.length; i++) {
-    if (i < paths.length-9) {
-      myTimeline.set(paths[i], {
-        x: randomNumber(-1500, 1500),
-        y: randomNumber(-1500, 1500),
-        rotation: randomNumber(-500, 500),
-        rotationX: randomNumber(-500, 500),
-        rotationY: randomNumber(-500, 500),
-        rotationZ: randomNumber(-500,500),
-        opacity: 0
-      });
-    } else {
-      myTimeline.set(paths[i], {
-        "fill-opacity": 0,
-        "stroke-dasharray": 194,
-        "stroke-dashoffset": 194,
-      });
-    }
-
-    // myTimeline.set(animationContainerDiv, {
-    //   "margin=left": 0
-    // });
+    myTimeline.set(paths[i], {
+      x: randomNumber(-1500, 1500),
+      y: randomNumber(-1500, 1500),
+      rotation: randomNumber(-500, 500),
+      rotationX: randomNumber(-500, 500),
+      rotationY: randomNumber(-500, 500),
+      rotationZ: randomNumber(-500,500),
+      opacity: 0
+    });
   }
 
 
-  var properOpacity = 0;
-
-  for (var i = 0; i < paths.length-9; i++) {
-    properOpacity = paths[i].getAttribute("opacity");
-
-    if (properOpacity < 0.8) {
-      var temp = Number(properOpacity);
-      temp += 0.2;
-      properOpacity = String(temp);
-    }
+  // var properOpacity = 0;
+  //
+  // for (var i = 0; i < paths.length-9; i++) {
+  //   properOpacity = paths[i].getAttribute("opacity");
+  //
+  //   if (properOpacity < 0.8) {
+  //     var temp = Number(properOpacity);
+  //     temp += 0.2;
+  //     properOpacity = String(temp);
+  //   }
 
     myTimeline.to(paths[i], 100, {
       x: 0,
@@ -68,18 +56,18 @@ $(window).load(function() {
     }, 0)
   }
 
-  for (var i = paths.length-9; i < paths.length; i++) {
-    myTimeline.to(paths[i], 68, {
-      "stroke-dashoffset": 0,
-      ease: Sine.easeInOutCubic
-    }, +100)
-  }
-
-  for (var i = paths.length-9; i < paths.length; i++) {
-    myTimeline.to(paths[i], 20, {
-      "fill-opacity": 1,
-      ease: Sine.easeInOutCubic
-    }, +168);
+  // for (var i = paths.length-9; i < paths.length; i++) {
+  //   myTimeline.to(paths[i], 68, {
+  //     "stroke-dashoffset": 0,
+  //     ease: Sine.easeInOutCubic
+  //   }, +100)
+  // }
+  //
+  // for (var i = paths.length-9; i < paths.length; i++) {
+  //   myTimeline.to(paths[i], 20, {
+  //     "fill-opacity": 1,
+  //     ease: Sine.easeInOutCubic
+  //   }, +168);
   }
 
   // myTimeline.to(animationContainerDiv, 40, {
