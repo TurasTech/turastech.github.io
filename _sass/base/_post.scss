@@ -10,6 +10,7 @@
 
   a {
     text-decoration: none;
+    font-family: exo;
     color: $base-font-color;
 
     &:after {
@@ -37,9 +38,11 @@
 
 .post-meta {
   font-style: italic;
+  font-size: 1.5em;
 }
 
 .post-item {
+  font-family: exo;
   padding-bottom: $base-spacing;
   margin-bottom: $base-spacing;
   border-bottom: 1px solid lighten($base-border-color, 5%);
@@ -55,5 +58,17 @@
 
   &:last-child {
     border: none;
+  }
+
+  h1, h2, h3, p {
+    font-weight: $font-weight-light;
+  }
+}
+
+.post-content {
+  font-family: "exo";
+
+  h1, h2, h3, p {
+    font-weight: $font-weight-light;
   }
 }

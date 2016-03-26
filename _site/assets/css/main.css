@@ -188,7 +188,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"],
   cursor: pointer;
   display: inline-block;
   font-family: "rbno2-light-alternative", Helvetica, sans-serif;
-  font-size: 1rem;
+  font-size: 1.2em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
   line-height: 1;
@@ -220,7 +220,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"],
     .button.button-ghost:hover,
     .button.button-ghost:focus,
     .button.button-ghost:active {
-      background-color: rgba(255, 255, 255, 0.1); }
+      background-color: rgba(0, 176, 231, 0.4); }
 
 fieldset {
   background-color: #f9f9f9;
@@ -496,16 +496,24 @@ body.home-intro {
     .post-header .post-title {
       font-size: 4rem; } }
 
+.hideBeforeAnimation {
+  opacity: 0; }
+
 .intro-subtitle {
   margin-bottom: 1em;
-  font-size: 1.2em;
-  font-family: "Georgia", serif;
-  font-weight: 500;
-  font-style: italic; }
+  font-size: 1.5em;
+  font-family: "rbno2-light-alternative", Helvetica, sans-serif;
+  font-weight: 500; }
   @media screen and (min-width: 1024px) {
     .intro-subtitle {
-      font-size: 1.6rem; } }
+      font-size: 2rem; } }
 
+@media screen and (min-width: 640px) {
+  #logoSquare {
+    display: none; } }
+@media screen and (max-width: 640px) {
+  #logoRect {
+    display: none; } }
 .menu-burger {
   position: fixed;
   z-index: 30;
@@ -745,6 +753,7 @@ body.navigation-is-open .menu-burger {
   .post-title a,
   .post-meta a {
     text-decoration: none;
+    font-family: exo;
     color: #737373; }
     .post-title a:after,
     .post-meta a:after {
@@ -770,9 +779,11 @@ body.navigation-is-open .menu-burger {
         left: 10px; }
 
 .post-meta {
-  font-style: italic; }
+  font-style: italic;
+  font-size: 1.5em; }
 
 .post-item {
+  font-family: exo;
   padding-bottom: 2em;
   margin-bottom: 2em;
   border-bottom: 1px solid #f2f2f2; }
@@ -783,6 +794,13 @@ body.navigation-is-open .menu-burger {
     font-size: .8rem; }
   .post-item:last-child {
     border: none; }
+  .post-item h1, .post-item h2, .post-item h3, .post-item p {
+    font-weight: 300; }
+
+.post-content {
+  font-family: "exo"; }
+  .post-content h1, .post-content h2, .post-content h3, .post-content p {
+    font-weight: 300; }
 
 .highlight {
   padding: 0;

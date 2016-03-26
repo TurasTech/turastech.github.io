@@ -15,6 +15,10 @@ body.home-intro {
   text-align: center;
   color: $lighter-gray-color;
   background: darken($primary-color, 6%);
+  // background-image: url("mac.jpeg");
+  // background-repeat: no-repeat;
+  // background-position: 0 100%;
+  // background-size: 55% 55%;
   overflow: hidden;
 }
 
@@ -56,14 +60,33 @@ body.home-intro {
   }
 }
 
+.hideBeforeAnimation {
+  opacity: 0;
+}
+
 .intro-subtitle {
   margin-bottom: $small-spacing;
-  font-size: 1.2em;
-  font-family: $serif-font-family;
+  font-size: 1.5em;
+  font-family: $base-font-family;
   font-weight: $font-weight-normal;
-  font-style: italic;
 
   @include media($min-tablet-large) {
-    font-size: 1.6rem;
+    font-size: 2rem;
   }
+}
+
+@media screen and (min-width: 640px) {
+  #logoSquare {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  #logoRect {
+    display: none;
+  }
+}
+
+.slow-fade {
+
 }

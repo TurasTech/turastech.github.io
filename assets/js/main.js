@@ -20,7 +20,7 @@ $(window).load(function() {
 
   console.log(loaded);
 
-  if (loaded == "false" || loaded == undefined) {
+  if (loaded == "false" || loaded == null) {
     var time = 1;
     var myTimeline = new TimelineMax({
       repeat: 0,
@@ -28,7 +28,8 @@ $(window).load(function() {
     });
 
     var paths = document.querySelectorAll('*[id^="path"]');
-    var animationContainerDiv = document.querySelectorAll('*[id^="svg4761"]');
+    var hiddenAnimation = document.getElementsByClassName("hideBeforeAnimation");
+    var slowFadeText = document.getElementsByClassName("slow-fade");
 
     myTimeline.timeScale(25);
 
@@ -38,14 +39,19 @@ $(window).load(function() {
 
     for (var i = 0; i < paths.length; i++) {
       myTimeline.set(paths[i], {
-        strokeDasharray: 275,
-        strokeDashoffset: -275,
+        strokeDasharray: 300,
+        strokeDashoffset: -300,
         strokeWidth: 1,
+        strokeOpacity: 1,
         fillOpacity: 0
       }),
 
-      myTimeline.set(animationContainerDiv, {
-        scale: 1
+      myTimeline.set(hiddenAnimation, {
+        opacity: 1
+      }),
+
+      myTimeline.set(slowFadeText, {
+        opacity: 0
       });
     }
 
@@ -53,15 +59,25 @@ $(window).load(function() {
       myTimeline.to(paths[i], 60, {
         strokeDashoffset: 0,
         ease: Sine.easeOut
-      }, 0),
+      }, +7),
 
-      myTimeline.to(paths[i], 40, {
+      myTimeline.to(paths[i], 50, {
         fillOpacity: 1,
         strokeOpacity: 0
-      }, +60);
+      }, +67),
+
+      myTimeline.to(slowFadeText, 80, {
+        opacity: 1,
+        ease: Sine.easeIn
+      }, +100);
     }
 
     sessionStorage.setItem('animationLoaded', 'true');
+  } else {
+    var hiddenElement = document.getElementsByClassName("hideBeforeAnimation");
+    hiddenElement[0].style.opacity = 1;
+    hiddenElement[1].style.opacity = 1;
+    hiddenElement[2].style.opacity = 1;
   }
 });
 

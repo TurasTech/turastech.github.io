@@ -8,7 +8,7 @@
   cursor: pointer;
   display: inline-block;
   font-family: $base-font-family;
-  font-size: $base-font-size;
+  font-size: 1.2em;
   -webkit-font-smoothing: antialiased;
   font-weight: $font-weight-bold;
   line-height: 1;
@@ -41,7 +41,7 @@
     &:hover,
     &:focus,
     &:active {
-      background-color: rgba($white-color, .1);
+      background-color: rgba($blue-color, .4);
     }
   }
 }
