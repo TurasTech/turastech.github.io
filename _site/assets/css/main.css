@@ -302,14 +302,14 @@ select {
 .contact input, .contact textarea {
   text-align: center;
   font-family: exo;
-  width: 400px;
+  width: 300px;
   color: #a6a6a6;
   padding: 5px;
   border: none; }
 
 .shape {
-  stroke-dasharray: 140 580;
-  stroke-dashoffset: -572;
+  stroke-dasharray: 140 550;
+  stroke-dashoffset: -421;
   stroke-width: 6px;
   fill: transparent;
   stroke: #00b0e7;
@@ -325,11 +325,11 @@ select {
 .svg-wrapper:hover .shape {
   stroke-width: 3px;
   stroke-dashoffset: 0;
-  stroke-dasharray: 900; }
+  stroke-dasharray: 682; }
 
 .shape-big {
-  stroke-dasharray: 140 850;
-  stroke-dashoffset: -129;
+  stroke-dasharray: 140 750;
+  stroke-dashoffset: -80;
   stroke-width: 6px;
   fill: transparent;
   stroke: #00b0e7;
@@ -345,7 +345,7 @@ select {
 .svg-wrapper-big:hover .shape-big {
   stroke-width: 3px;
   stroke-dashoffset: 0;
-  stroke-dasharray: 1112; }
+  stroke-dasharray: 912; }
 
 input[type=submit] {
   display: block;

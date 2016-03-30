@@ -95,7 +95,7 @@ select {
     text-align: center;
     // background-color: $dark-gray-color;
     font-family: exo;
-    width: 400px;
+    width: 300px;
     color: $light-gray-color;
     padding: 5px;
     border: none;
@@ -126,8 +126,8 @@ select {
 // }
 
 .shape {
-  stroke-dasharray: 140 580;
-  stroke-dashoffset: -572;
+  stroke-dasharray: 140 550;
+  stroke-dashoffset: -421;
   stroke-width: 6px;
   fill: transparent;
   stroke: $blue-color;
@@ -145,12 +145,12 @@ select {
 .svg-wrapper:hover .shape {
   stroke-width: 3px;
   stroke-dashoffset: 0;
-  stroke-dasharray: 900;
+  stroke-dasharray: 682;
 }
 
 .shape-big {
-  stroke-dasharray: 140 850;
-  stroke-dashoffset: -129;
+  stroke-dasharray: 140 750;
+  stroke-dashoffset: -80;
   stroke-width: 6px;
   fill: transparent;
   stroke: $blue-color;
@@ -168,7 +168,7 @@ select {
 .svg-wrapper-big:hover .shape-big {
   stroke-width: 3px;
   stroke-dashoffset: 0;
-  stroke-dasharray: 1112;
+  stroke-dasharray: 912;
 }
 
 input[type=submit] {
