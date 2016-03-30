@@ -159,13 +159,6 @@ function submitContactForm() {
     {
       alert("You forgot to fill out a field! Your phone number is optional, but I'll need the others.");
       return;
-    } else {
-      alert("Thanks for taking a step and contacting me! I'll be sure to do the same and get back to you soon.")
-      var form = document.getElementById('contactForm');
-      console.log(form);
-      form.submit();
-      // window.location = '/blog';
-      return;
     }
   }
 }

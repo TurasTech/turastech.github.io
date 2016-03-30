@@ -9,7 +9,7 @@ layout: blank
   <div class="intro-in">
     <h1> Let's Talk Development </h1>
 
-    <form id="contactForm" class="contact" action="https://formspree.io/cody@turastech.io" method="POST">
+    <form id="contactForm" class="contact" action="https://formspree.io/cody@turastech.io" onsubmit="return submitContactForm()" method="POST">
       <div id="firstSVG" class="svg-wrapper" onclick="selectTextBoxThroughSVG(this)">
         <svg height="41" width="400">
           <rect class="shape" height="41" width="400"/>
@@ -21,7 +21,7 @@ layout: blank
           <rect class="shape" height="41" width="400"/>
         </svg>
       </div>
-      <input id="emailBox" type="text" placeholder="Email" name="Email"></input>
+      <input id="emailBox" type="text" placeholder="Email" name="_replyto"></input>
       <div id="thirdSVG" class="svg-wrapper" onclick="selectTextBoxThroughSVG(this)">
         <svg height="41" width="400">
           <rect class="shape" height="41" width="400"/>
@@ -34,11 +34,10 @@ layout: blank
         </svg>
       </div>
       <textarea id="messageBox" placeholder="What's on your mind?" name="Message"></textarea>
+      <input class="button button-ghost" type="submit" value="Send">
+      <input type="hidden" name="_next" value="//turastech.io/index.html" />
+      <input type="hidden" name="_subject" value="Form from turastech.io" />
     </form>
-
-    <nav class="intro-actions">
-      <a class="button button-ghost" onclick="submitContactForm()" role="button">Submit</a>
-    </nav>
 
   </div>
 

@@ -170,3 +170,9 @@ select {
   stroke-dashoffset: 0;
   stroke-dasharray: 1112;
 }
+
+input[type=submit] {
+  display: block;
+  margin: 0 auto;
+  width: 80px;
+}
