@@ -162,6 +162,7 @@ function submitContactForm() {
     }
 
     if (i == fields.length-1) {
+      alert("Thanks for the information! I'll do my best to get back to you quite soon.");
       return true;
     }
   }
