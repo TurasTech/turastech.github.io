@@ -110,21 +110,18 @@ function selectTextBoxThroughSVG(vector) {
 }
 
 function submitContactForm() {
-  console.log("Submitting form.");
   var fields = $('#contactForm :input');
 
   for(var i=0; i<fields.length; ++i) {
-    if (fields[i].id == "phoneBox") {
+    console.log("running validations.");
+    if (fields[i].id == "phoneBox" && fields[i].value != "" && fields[i].value != null) {
       var runPhoneRegex = function validatePhone() {
         var phoneRegex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
         if(fields[i].value.match(phoneRegex)) {
           return true;
-        }
-        else {
-          if (fields[i].value != "" && fields[i].value != null) {
-            alert("Uh-oh - that's not a valid phone number. Try again?");
-            return false;
-          }
+        } else {
+          alert("Uh-oh - that's not a valid phone number. Try again?");
+          return false;
         }
       }();
 
@@ -155,11 +152,16 @@ function submitContactForm() {
       }
     }
 
-    if (!fields[i].value && fields[i].id != "phoneBox")
+    if (!fields[i].value && fields[i].style.display != "none" && fields[i].id != "phoneBox")
     {
+      console.log(i);
+      console.log(fields[i]);
+      console.log(fields[i].value);
       alert("You forgot to fill out a field! Your phone number is optional, but I'll need the others.");
       return false;
-    } else {
+    }
+
+    if (i == fields.length-1) {
       return true;
     }
   }
