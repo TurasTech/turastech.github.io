@@ -188,7 +188,7 @@ button, input[type="button"], input[type="reset"], input[type="submit"],
   cursor: pointer;
   display: inline-block;
   font-family: "rbno2-light-alternative", Helvetica, sans-serif;
-  font-size: 1.2em;
+  font-size: 1.4em;
   -webkit-font-smoothing: antialiased;
   font-weight: 600;
   line-height: 1;
@@ -351,6 +351,9 @@ input[type=submit] {
   display: block;
   margin: 0 auto;
   width: 80px; }
+
+section {
+  height: 100vh; }
 
 ul,
 ol {

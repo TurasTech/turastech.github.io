@@ -1,5 +1,23 @@
-<svg id="logoSquare" height="41.889mm" width="77.51mm" viewBox="0 0 274.64204 148.42505">
- <metadata id="metadata4766">
+<svg id="logoSquare" height="41.889mm" width="77.51mm" viewBox="0 0 274.64204 148.42505"
+  xmlns:dc="http://purl.org/dc/elements/1.1/"
+  xmlns:cc="http://creativecommons.org/ns#"
+  xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+  xmlns:svg="http://www.w3.org/2000/svg"
+  xmlns="http://www.w3.org/2000/svg"
+  xmlns:xlink="http://www.w3.org/1999/xlink"
+  xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+  xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" />
+
+  <metadata id="metadata4766">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title />
+      </cc:Work>
+    </rdf:RDF>
  </metadata>
  <g>
   <g id="text4775" opacity="0.99" transform="translate(-44.885 -64.35)" stroke="#fff" stroke-width=".5" fill="#fff">

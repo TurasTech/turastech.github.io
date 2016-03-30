@@ -18,8 +18,6 @@ jQuery(document).ready(function($){
 $(window).load(function() {
   var loaded = sessionStorage.getItem('animationLoaded');
 
-  console.log(loaded);
-
   if (loaded == "false" || loaded == null) {
     var time = 1;
     var myTimeline = new TimelineMax({
