@@ -129,7 +129,7 @@ function submitContactForm() {
       }();
 
       if (runPhoneRegex == false) {
-        return;
+        return false;
       }
     }
 
@@ -151,14 +151,16 @@ function submitContactForm() {
       }();
 
       if (runEmailRegex == false) {
-        return;
+        return false;
       }
     }
 
     if (!fields[i].value && fields[i].id != "phoneBox")
     {
       alert("You forgot to fill out a field! Your phone number is optional, but I'll need the others.");
-      return;
+      return false;
+    } else {
+      return true;
     }
   }
 }
