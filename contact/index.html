@@ -1,0 +1,45 @@
+---
+layout: blank
+<!-- body_class: home-intro -->
+---
+
+<section class="intro">
+  {% include navbar.html %}
+
+  <div class="intro-in">
+    <h1> Let's Talk Development </h1>
+
+    <form id="contactForm" class="contact" action="https://formspree.io/cody@turastech.io" method="POST">
+      <div id="firstSVG" class="svg-wrapper" onclick="selectTextBoxThroughSVG(this)">
+        <svg height="41" width="400">
+          <rect class="shape" height="41" width="400"/>
+        </svg>
+      </div>
+      <input id="nameBox" type="text" placeholder="Name" name="Name"></input>
+      <div id="secondSVG" class="svg-wrapper" onclick="selectTextBoxThroughSVG(this)">
+        <svg height="41" width="400">
+          <rect class="shape" height="41" width="400"/>
+        </svg>
+      </div>
+      <input id="emailBox" type="text" placeholder="Email" name="Email"></input>
+      <div id="thirdSVG" class="svg-wrapper" onclick="selectTextBoxThroughSVG(this)">
+        <svg height="41" width="400">
+          <rect class="shape" height="41" width="400"/>
+        </svg>
+      </div>
+      <input id="phoneBox" type="text" placeholder="Phone" name="Phone"></input>
+      <div id="fourthSVG" class="svg-wrapper-big" onclick="selectTextBoxThroughSVG(this)">
+        <svg height="156" width="400">
+          <rect class="shape-big" height="156" width="400"/>
+        </svg>
+      </div>
+      <textarea id="messageBox" placeholder="What's on your mind?" name="Message"></textarea>
+    </form>
+
+    <nav class="intro-actions">
+      <a class="button button-ghost" onclick="submitContactForm()" role="button">Submit</a>
+    </nav>
+
+  </div>
+
+</section>

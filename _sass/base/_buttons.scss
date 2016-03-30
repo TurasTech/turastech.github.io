@@ -12,7 +12,10 @@
   -webkit-font-smoothing: antialiased;
   font-weight: $font-weight-bold;
   line-height: 1;
-  padding: $small-spacing $base-spacing;
+  padding-top: $small-spacing / 1.5;
+  padding-bottom: $small-spacing / 1.5;
+  padding-left: $small-spacing / 1.2;
+  padding-right: $small-spacing / 1.2;
   text-decoration: none;
   @include transition(background-color $base-duration $base-timing);
   user-select: none;

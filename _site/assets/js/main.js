@@ -56,7 +56,7 @@ $(window).load(function() {
     }
 
     for(var i=0; i < paths.length; i++) {
-      myTimeline.to(paths[i], 60, {
+      myTimeline.to(paths[i], 80, {
         strokeDashoffset: 0,
         ease: Sine.easeOut
       }, +7),
@@ -64,12 +64,12 @@ $(window).load(function() {
       myTimeline.to(paths[i], 50, {
         fillOpacity: 1,
         strokeOpacity: 0
-      }, +67),
+      }, +87),
 
       myTimeline.to(slowFadeText, 80, {
         opacity: 1,
         ease: Sine.easeIn
-      }, +100);
+      }, +120);
     }
 
     sessionStorage.setItem('animationLoaded', 'true');
@@ -83,3 +83,89 @@ $(window).load(function() {
 
 $(window).unload(function() {
 });
+
+function selectTextBoxThroughSVG(vector) {
+  var fields = $('#contactForm :input');
+  let id = vector.id;
+  switch (id) {
+    case "firstSVG":
+      $(fields[0]).focus();
+      break;
+    case "secondSVG":
+      $(fields[1]).focus();
+      break;
+    case "thirdSVG":
+      $(fields[2]).focus();
+      break;
+    case "fourthSVG":
+      $(fields[3]).focus();
+      break;
+    default:
+      console.log("Error - no matching case for SVG.");
+      break;
+  }
+  // var textbox = $('.intro-in > form:nth-child(3)');
+  // row.select();
+  // console.log(row);
+}
+
+function submitContactForm() {
+  console.log("Submitting form.");
+  var fields = $('#contactForm :input');
+
+  for(var i=0; i<fields.length; ++i) {
+    if (fields[i].id == "phoneBox") {
+      var runPhoneRegex = function validatePhone() {
+        var phoneRegex = /^\(?([0-9]{3})\)?[-. ]?([0-9]{3})[-. ]?([0-9]{4})$/;
+        if(fields[i].value.match(phoneRegex)) {
+          return true;
+        }
+        else {
+          if (fields[i].value != "" && fields[i].value != null) {
+            alert("Uh-oh - that's not a valid phone number. Try again?");
+            return false;
+          }
+        }
+      }();
+
+      if (runPhoneRegex == false) {
+        return;
+      }
+    }
+
+    if (fields[i].id == "emailBox") {
+      var runEmailRegex = function validateEmail() {
+        var emailRegex = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        if(fields[i].value.match(emailRegex)) {
+          return true;
+        }
+        else {
+          if (fields[i].value == '' || fields[i].value == null) {
+            alert("I'd like to respond, but I'll need your email!");
+            return false;
+          }
+
+          alert("Seems like the email you entered is no good. Try again?");
+          return false;
+        }
+      }();
+
+      if (runEmailRegex == false) {
+        return;
+      }
+    }
+
+    if (!fields[i].value && fields[i].id != "phoneBox")
+    {
+      alert("You forgot to fill out a field! Your phone number is optional, but I'll need the others.");
+      return;
+    } else {
+      alert("Thanks for taking a step and contacting me! I'll be sure to do the same and get back to you soon.")
+      var form = document.getElementById('contactForm');
+      console.log(form);
+      form.submit();
+      // window.location = '/blog';
+      return;
+    }
+  }
+}

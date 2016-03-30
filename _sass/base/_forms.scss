@@ -9,7 +9,7 @@ input,
 label,
 select {
   display: block;
-  font-family: $base-font-family;
+  font-family: exo;
   font-size: $base-font-size;
 }
 
@@ -28,17 +28,17 @@ label {
 
 #{$all-text-inputs},
 select[multiple=multiple] {
-  background-color: $base-background-color;
+  background-color: inherit;
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
   box-sizing: border-box;
-  font-family: $base-font-family;
+  font-family: exo;
   font-size: $base-font-size;
   margin-bottom: $small-spacing;
   padding: $base-spacing / 3;
   transition: border-color $base-duration $base-timing;
-  width: 100%;
+  width: 300px;
 
   &:hover {
     border-color: shade($base-border-color, 20%);
@@ -61,7 +61,8 @@ select[multiple=multiple] {
 }
 
 textarea {
-  resize: vertical;
+  resize: none;
+  height: 156px;
 }
 
 input[type="search"] {
@@ -87,4 +88,85 @@ select {
   margin-bottom: $base-spacing;
   max-width: 100%;
   width: auto;
+}
+
+.contact {
+  input, textarea {
+    text-align: center;
+    // background-color: $dark-gray-color;
+    font-family: exo;
+    width: 400px;
+    color: $light-gray-color;
+    padding: 5px;
+    border: none;
+  }
+
+  input:focus, textarea:focus {
+    // box-shadow: 0 0 5px $blue-color;
+    // border: 1px solid $blue-color;
+  }
+}
+
+// ::-webkit-input-placeholder { /* WebKit, Blink, Edge */
+//   color: $blue-color;
+// }
+// :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+//    color: $blue-color;
+//    opacity:  1;
+// }
+// ::-moz-placeholder { /* Mozilla Firefox 19+ */
+//    color: $blue-color;
+//    opacity:  1;
+// }
+// :-ms-input-placeholder { /* Internet Explorer 10-11 */
+//    color: $blue-color;
+// }
+// :placeholder-shown { /* Standard (https://drafts.csswg.org/selectors-4/#placeholder) */
+//   color: $blue-color;
+// }
+
+.shape {
+  stroke-dasharray: 140 580;
+  stroke-dashoffset: -572;
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: $blue-color;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.svg-wrapper {
+  position: absolute;
+  transform: translateY(-10%);
+  pointer-events: fill;
+  cursor: text;
+}
+
+.svg-wrapper:hover .shape {
+  stroke-width: 3px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 900;
+}
+
+.shape-big {
+  stroke-dasharray: 140 850;
+  stroke-dashoffset: -129;
+  stroke-width: 6px;
+  fill: transparent;
+  stroke: $blue-color;
+  border-bottom: 5px solid black;
+  transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.svg-wrapper-big {
+  position: absolute;
+  transform: translateY(-2.6%);
+  pointer-events: fill;
+  cursor: text;
+}
+
+.svg-wrapper-big:hover .shape-big {
+  stroke-width: 3px;
+  stroke-dashoffset: 0;
+  stroke-dasharray: 1112;
 }
