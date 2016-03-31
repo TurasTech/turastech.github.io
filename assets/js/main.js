@@ -18,7 +18,11 @@ jQuery(document).ready(function($){
 $(window).load(function() {
   var loaded = sessionStorage.getItem('animationLoaded');
 
-  if (loaded == "false" || loaded == null) {
+  if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
+    console.log("Mobile device!");
+  }
+
+  if ((loaded == "false" || loaded == null) && !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
     var time = 1;
     var myTimeline = new TimelineMax({
       repeat: 0,
