@@ -27,6 +27,7 @@ $(window).load(function() {
   }
 
   if ((loaded == "false" || loaded == null) && !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+    console.log("Hello there Mobile device!");
     var time = 1;
     var myTimeline = new TimelineMax({
       repeat: 0,
@@ -81,6 +82,7 @@ $(window).load(function() {
     sessionStorage.setItem('animationLoaded', 'true');
   } else {
     var hiddenElement = document.getElementsByClassName("hideBeforeAnimation");
+    console.log("Hello there mobile!");
     hiddenElement[0].style.opacity = 1;
     hiddenElement[1].style.opacity = 1;
     hiddenElement[2].style.opacity = 1;

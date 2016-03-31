@@ -570,9 +570,6 @@ body.home-intro {
     .intro-subtitle {
       font-size: 2rem; } }
 
-@media screen and (min-width: 640px) {
-  #logoSquare {
-    display: none; } }
 @media screen and (max-width: 640px) {
   #logoRect {
     display: none; } }
