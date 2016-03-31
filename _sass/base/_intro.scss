@@ -85,4 +85,10 @@ body.home-intro {
   #logoRect {
     display: none;
   }
+
+  svg {
+    display: block;
+    position: absolute;
+    margin: 0 auto;
+  }
 }

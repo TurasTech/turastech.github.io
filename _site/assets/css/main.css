@@ -572,7 +572,12 @@ body.home-intro {
 
 @media screen and (max-width: 640px) {
   #logoRect {
-    display: none; } }
+    display: none; }
+
+  svg {
+    display: block;
+    position: absolute;
+    margin: 0 auto; } }
 .menu-burger {
   position: fixed;
   z-index: 30;
