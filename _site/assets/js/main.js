@@ -102,9 +102,6 @@ function selectTextBoxThroughSVG(vector) {
       console.log("Error - no matching case for SVG.");
       break;
   }
-  // var textbox = $('.intro-in > form:nth-child(3)');
-  // row.select();
-  // console.log(row);
 }
 
 function submitContactForm() {

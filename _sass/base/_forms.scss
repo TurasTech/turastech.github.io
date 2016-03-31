@@ -32,6 +32,7 @@ select[multiple=multiple] {
   border: $base-border;
   border-radius: $base-border-radius;
   box-shadow: $form-box-shadow;
+  font-weight: 200;
   box-sizing: border-box;
   font-family: exo;
   font-size: $base-font-size;
@@ -175,6 +176,7 @@ input[type=submit] {
   display: block;
   margin: 0 auto;
   width: 80px;
+  font-weight: 400;
 }
 
 section {
