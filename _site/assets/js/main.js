@@ -20,6 +20,10 @@ $(window).load(function() {
 
   if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
     console.log("Mobile device!");
+    var rectangleLogo = document.getElementById('logoRect');
+    var squareLogo = document.getElementById('logoSquare');
+    rectangleLogo.style.display = "none";
+    squareLogo.style.display = "block";
   }
 
   if ((loaded == "false" || loaded == null) && !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
