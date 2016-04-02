@@ -21,7 +21,42 @@ $(window).load(function() {
   // (loaded == "false" || loaded == null) &&
 
   // if ( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
-  if ( document.URL == ("turastech.io") ) {
+
+  var docURL = document.URL;
+
+  if ( docURL.indexOf("about") > -1 ) {
+    var aboutTimeline = new TimelineMax({
+      repeat: 0,
+      yoyo: false
+    });
+
+    aboutTimeline.timeScale(25);
+
+    var pToFade = $("#aboutHeader span");
+
+    for (var i=0; i<pToFade.length; ++i) {
+      aboutTimeline.set(pToFade[i], {
+        opacity: 0
+      });
+    }
+
+    aboutTimeline.to(pToFade[0], 30, {
+      opacity: 1
+    }, +10),
+
+    aboutTimeline.to(pToFade[1], 30, {
+      opacity: 1
+    }, +40),
+
+    aboutTimeline.to(pToFade[2], 30, {
+      opacity: 1
+    }, +70),
+
+    aboutTimeline.to(pToFade[3], 30, {
+      opacity: 1
+    }, +100);
+
+  } else {
 
     var time = 1;
     var myTimeline = new TimelineMax({
@@ -69,38 +104,6 @@ $(window).load(function() {
         ease: Sine.easeIn
       }, +100);
     }
-  } else if ( document.URL == "turastech.io/about/" ) {
-    var aboutTimeline = new TimelineMax({
-      repeat: 0,
-      yoyo: false
-    });
-
-    aboutTimeline.timeScale(25);
-
-    var pToFade = $("#aboutHeader span");
-
-    for (var i=0; i<pToFade.length; ++i) {
-      aboutTimeline.set(pToFade[i], {
-        opacity: 0
-      });
-    }
-
-    aboutTimeline.to(pToFade[0], 30, {
-      opacity: 1
-    }, +10),
-
-    aboutTimeline.to(pToFade[1], 30, {
-      opacity: 1
-    }, +40),
-
-    aboutTimeline.to(pToFade[2], 30, {
-      opacity: 1
-    }, +70),
-
-    aboutTimeline.to(pToFade[3], 30, {
-      opacity: 1
-    }, +100);
-
   }
 
     // sessionStorage.setItem('animationLoaded', 'true');
