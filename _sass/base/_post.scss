@@ -11,7 +11,7 @@
   a {
     text-decoration: none;
     font-family: exo;
-    color: $base-font-color;
+    color: $primary-color;
 
     &:after {
       content: '➝';
@@ -67,8 +67,24 @@
 
 .post-content {
   font-family: "exo";
-
+  font-size: 17px;
   h1, h2, h3, p {
     font-weight: $font-weight-light;
+    color: black;
+  }
+
+  a {
+    color: $primary-color;
+
+    &:hover,
+    &:focus,
+    &:active {
+      color: $blue-color;
+
+      &:after {
+        opacity: 1;
+        left: 10px;
+      }
+    }
   }
 }

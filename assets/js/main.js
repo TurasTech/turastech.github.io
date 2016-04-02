@@ -17,17 +17,10 @@ jQuery(document).ready(function($){
 });
 
 $(window).load(function() {
-  var loaded = sessionStorage.getItem('animationLoaded');
+  // var loaded = sessionStorage.getItem('animationLoaded');
+  // (loaded == "false" || loaded == null) &&
 
-  // if ( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) ) {
-  //   console.log("Mobile device!");
-  //   var rectangleLogo = document.getElementById('logoRect');
-  //   var squareLogo = document.getElementById('logoSquare');
-  //   rectangleLogo.style.display = "none";
-  //   squareLogo.style.display = "block";
-  // }
-
-  if ((loaded == "false" || loaded == null) && !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
+  // if ( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
     console.log("Hello there Mobile device!");
     var time = 1;
     var myTimeline = new TimelineMax({
@@ -80,13 +73,14 @@ $(window).load(function() {
       }, +120);
     }
 
-    sessionStorage.setItem('animationLoaded', 'true');
-  } else {
-    var hiddenElement = document.getElementsByClassName("hideBeforeAnimation");
-    hiddenElement[0].style.opacity = 1;
-    hiddenElement[1].style.opacity = 1;
-    hiddenElement[2].style.opacity = 1;
-  }
+    // sessionStorage.setItem('animationLoaded', 'true');
+  // } 
+  // else {
+  //   var hiddenElement = document.getElementsByClassName("hideBeforeAnimation");
+  //   hiddenElement[0].style.opacity = 1;
+  //   hiddenElement[1].style.opacity = 1;
+  //   hiddenElement[2].style.opacity = 1;
+  // }
 });
 
 $(window).unload(function() {

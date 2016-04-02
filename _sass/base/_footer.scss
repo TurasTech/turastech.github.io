@@ -14,6 +14,11 @@
     margin-bottom: 0;
     color: $medium-gray-color;
     float: left;
+    font-size: 1.2em;
+
+    em {
+      color: #FF1493;
+    }
   }
 
   .social {
@@ -29,7 +34,7 @@
 
   a {
     @include transition(opacity .15s ease-in-out);
-    color: $medium-gray-color;
+    color: $blue-color;
     text-decoration: none;
     opacity: .5;
 
@@ -41,6 +46,13 @@
   }
 
   .icon {
-    font-size: 1.2rem;
+    font-size: 2.5em;
+    color: $blue-color;
   }
+}
+
+.bottom-container {
+  position: absolute;
+  bottom: 50px;
+  right: 7vw;
 }
