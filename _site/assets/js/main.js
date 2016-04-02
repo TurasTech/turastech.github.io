@@ -99,10 +99,10 @@ $(window).load(function() {
         strokeOpacity: 0
       }, +50),
 
-      myTimeline.to(slowFadeText, 80, {
+      myTimeline.to(slowFadeText, 60, {
         opacity: 1,
         ease: Sine.easeIn
-      }, +100);
+      }, +90);
     }
   }
 
