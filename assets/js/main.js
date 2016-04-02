@@ -21,7 +21,7 @@ $(window).load(function() {
   // (loaded == "false" || loaded == null) &&
 
   // if ( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
-  if ( document.URL == ("http://turastech.io") ) {
+  if ( document.URL == ("turastech.io") ) {
 
     var time = 1;
     var myTimeline = new TimelineMax({
@@ -69,7 +69,7 @@ $(window).load(function() {
         ease: Sine.easeIn
       }, +100);
     }
-  } else if ( document.URL == "http://turastech.io/about/" ) {
+  } else if ( document.URL == "turastech.io/about/" ) {
     var aboutTimeline = new TimelineMax({
       repeat: 0,
       yoyo: false
