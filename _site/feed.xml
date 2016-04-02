@@ -5,8 +5,8 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Apr 2016 16:56:38 -0400</pubDate>
-    <lastBuildDate>Sat, 02 Apr 2016 16:56:38 -0400</lastBuildDate>
+    <pubDate>Sat, 02 Apr 2016 17:09:18 -0400</pubDate>
+    <lastBuildDate>Sat, 02 Apr 2016 17:09:18 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
@@ -39,7 +39,17 @@
       &lt;td&gt;&lt;a href=&quot;https://www.ruby-lang.org/en/&quot;&gt;Ruby&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://rubygems.org/&quot;&gt;RubyGems&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://www.sourcetreeapp.com/&quot;&gt;SourceTree&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.learncpp.com/&quot;&gt;C++&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://css-tricks.com/sass-vs-less/&quot;&gt;Less&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://gulpjs.com/&quot;&gt;Gulp&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.amazon.com/iOS-Core-Animation-Advanced-Techniques-ebook/dp/B00EHJCORC/ref=sr_1_1?ie=UTF8&amp;amp;qid=1459454980&amp;amp;sr=8-1&amp;amp;keywords=core+animation&quot;&gt;Core Animation&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -51,7 +61,6 @@
       &lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/xcode/id497799835?ls=1&amp;amp;mt=12&quot;&gt;XCode&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://www.raywenderlich.com/113388/storyboards-tutorial-in-ios-9-part-1&quot;&gt;Interface Builder&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://css-tricks.com/sass-vs-less/&quot;&gt;Sass&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://css-tricks.com/sass-vs-less/&quot;&gt;Less&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -63,7 +72,6 @@
       &lt;td&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics&quot;&gt;JavaScript&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://htmldog.com/&quot;&gt;HTML&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://htmldog.com/&quot;&gt;CSS&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms&quot;&gt;Transforms&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -74,8 +82,29 @@
       &lt;td&gt;&lt;a href=&quot;http://programmers.stackexchange.com/questions/118586/how-does-a-compiler-work&quot;&gt;Compilers&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;Interpreters&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;Browsers&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;XML&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;http://gruntjs.com/&quot;&gt;Grunt&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://gulpjs.com/&quot;&gt;Gulp&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://stackoverflow.com/questions/16336367/what-is-the-difference-between-synchronous-and-asynchronous-programming-in-node&quot;&gt;asynchronous tasks&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;lexing&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms&quot;&gt;Transforms&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html&quot;&gt;closures&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://github.com/jessesquires/JSQMessagesViewController&quot;&gt;JSQMessage&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Thread_(computing)&quot;&gt;Threads&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -87,7 +116,6 @@
       &lt;td&gt;&lt;a href=&quot;https://github.com/&quot;&gt;Github&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://jquery.com/&quot;&gt;jQuery&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007898-CH1-SW1&quot;&gt;iOS&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.amazon.com/iOS-Core-Animation-Advanced-Techniques-ebook/dp/B00EHJCORC/ref=sr_1_1?ie=UTF8&amp;amp;qid=1459454980&amp;amp;sr=8-1&amp;amp;keywords=core+animation&quot;&gt;Core Animation&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -98,8 +126,7 @@
       &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/Miscellaneous/Conceptual/iPhoneOSTechOverview/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007898-CH1-SW1&quot;&gt;Cocoa Touch&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/UIKit/Reference/UIKit_Framework/&quot;&gt;UIKit&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/course/6.-protocols-delegation-gestures/id961180099?i=335339388&amp;amp;mt=2&quot;&gt;delegates&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/Swift/Conceptual/Swift_Programming_Language/Closures.html&quot;&gt;closures&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://stackoverflow.com/questions/16336367/what-is-the-difference-between-synchronous-and-asynchronous-programming-in-node&quot;&gt;asynchronous tasks&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.maxcdn.com/&quot;&gt;CDN&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -110,8 +137,7 @@
       &lt;td&gt;&lt;a href=&quot;http://greensock.com/gsap&quot;&gt;GSAP&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://css-tricks.com/using-svg/&quot;&gt;SVG&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://inkscape.org/en/download/&quot;&gt;Inkscape&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;lexing&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.json.org/&quot;&gt;JSON&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -123,7 +149,6 @@
       &lt;td&gt;&lt;a href=&quot;http://ccgus.github.io/fmdb/&quot;&gt;FMDB&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://www.sqlite.org/&quot;&gt;SQLite&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://parse.com/&quot;&gt;Parse&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://github.com/jessesquires/JSQMessagesViewController&quot;&gt;JSQMessage&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -135,7 +160,17 @@
       &lt;td&gt;&lt;a href=&quot;https://github.com/js-cookie/js-cookie&quot;&gt;cookies&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://blog.modulus.io/absolute-beginners-guide-to-nodejs&quot;&gt;Node&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://ccgus.github.io/fmdb/&quot;&gt;wrappers&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://bower.io/&quot;&gt;Bower&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://www.hackerrank.com/domains/algorithms/arrays-and-sorting/difficulty/all/page/1&quot;&gt;sorting algorithms&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.raywenderlich.com/2636/rss-reader-tutorial-for-ios-how-to-make-a-simple-rss-reader-iphone-app&quot;&gt;RSSFeeds&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://www.contentful.com/r/knowledgebase/ios-cms/&quot;&gt;CMS&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -147,7 +182,6 @@
       &lt;td&gt;&lt;a href=&quot;https://cocoapods.org/&quot;&gt;CocoaPods&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://lifehacker.com/five-best-text-editors-1564907215&quot;&gt;text editors&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://atom.io/&quot;&gt;Atom&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.raywenderlich.com/2636/rss-reader-tutorial-for-ios-how-to-make-a-simple-rss-reader-iphone-app&quot;&gt;RSSFeeds&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -159,7 +193,6 @@
       &lt;td&gt;&lt;a href=&quot;http://stackoverflow.com/&quot;&gt;Stack Overflow&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://codepen.io/&quot;&gt;Codepen&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://parse.com/docs/ios/guide&quot;&gt;CloudCode&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.umiacs.umd.edu/~jimmylin/publications/Busch_etal_ICDE2012.pdf&quot;&gt;real-time search&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -171,7 +204,17 @@
       &lt;td&gt;&lt;a href=&quot;http://stackoverflow.com/questions/17253545/scripting-language-vs-programming-language&quot;&gt;scripting languages&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://stackoverflow.com/questions/17253545/scripting-language-vs-programming-language&quot;&gt;system languages&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.learncpp.com/cpp-tutorial/81-welcome-to-object-oriented-programming/&quot;&gt;object oriented programming&lt;/a&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+
+&lt;table&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.umiacs.umd.edu/~jimmylin/publications/Busch_etal_ICDE2012.pdf&quot;&gt;real-time search&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.learncpp.com/cpp-tutorial/69-dynamic-memory-allocation-with-new-and-delete/&quot;&gt;memory allocation&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/resize-lite/id808230236?mt=12&quot;&gt;image resolution&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model&quot;&gt;DOM&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -183,7 +226,6 @@
       &lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=4Z9KEBexzcM&quot;&gt;relational databases&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.sarahmei.com/blog/2013/11/11/why-you-should-never-use-mongodb/&quot;&gt;DTD&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;&quot;&gt;CPU and GPU&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.contentful.com/r/knowledgebase/ios-cms/&quot;&gt;CMS&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -192,10 +234,9 @@
   &lt;tbody&gt;
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;browsing engines&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;parsing&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a id=&quot;frozen-link&quot; href=&quot;https://www.youtube.com/watch?v=L0MK7qz13bU&quot; target=&quot;_blank&quot;&gt;Frozen&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model&quot;&gt;DOM&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/resize-lite/id808230236?mt=12&quot;&gt;image resolution&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.miraclesalad.com/webtools/md5.php&quot;&gt;cryptography&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/ref=sr_1_1?ie=UTF8&amp;amp;qid=1459460707&amp;amp;sr=8-1&amp;amp;keywords=practices+of+an+agile+developer&quot;&gt;Agile&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -207,19 +248,6 @@
       &lt;td&gt;&lt;a href=&quot;https://parse.com/docs/cloudcode/guide&quot;&gt;server side code&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://www.namecheap.com/&quot;&gt;web domains &amp;amp; hosting&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=CDxaRfwzFrs&quot;&gt;servers&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.json.org/&quot;&gt;JSON&lt;/a&gt;&lt;/td&gt;
-    &lt;/tr&gt;
-  &lt;/tbody&gt;
-&lt;/table&gt;
-
-&lt;table&gt;
-  &lt;tbody&gt;
-    &lt;tr&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.miraclesalad.com/webtools/md5.php&quot;&gt;cryptography&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://www.maxcdn.com/&quot;&gt;CDN&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://bower.io/&quot;&gt;Bower&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.amazon.com/Practices-Agile-Developer-Pragmatic-Bookshelf/dp/097451408X/ref=sr_1_1?ie=UTF8&amp;amp;qid=1459460707&amp;amp;sr=8-1&amp;amp;keywords=practices+of+an+agile+developer&quot;&gt;Agile&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Scrum_(software_development)&quot;&gt;Scrum&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -231,7 +259,6 @@
       &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/ToolsLanguages/Conceptual/Xcode_Overview/UnitTesting.html&quot;&gt;unit testing&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html&quot;&gt;MVC Design&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/EventHandling/Conceptual/EventHandlingiPhoneOS/GestureRecognizer_basics/GestureRecognizer_basics.html&quot;&gt;Gesture Recognizers&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/Thread_(computing)&quot;&gt;Threads&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
@@ -243,7 +270,6 @@
       &lt;td&gt;&lt;a href=&quot;https://www.npmjs.com/&quot;&gt;Node Package Manager&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SubmittingYourApp/SubmittingYourApp.html&quot;&gt;App validation&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.h-schmidt.net/FloatConverter/IEEE754.html&quot;&gt;Binary, Hex, etc.&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;XML&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
