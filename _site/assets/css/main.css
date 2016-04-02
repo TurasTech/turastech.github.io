@@ -235,7 +235,7 @@ input,
 label,
 select {
   display: block;
-  font-family: exo;
+  font-family: "exo";
   font-size: 1rem; }
 
 label {
@@ -254,7 +254,7 @@ select[multiple=multiple] {
   box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.06);
   font-weight: 200;
   box-sizing: border-box;
-  font-family: exo;
+  font-family: "exo";
   font-size: 1rem;
   margin-bottom: 1em;
   padding: 0.66667em;
@@ -302,7 +302,7 @@ select {
 
 .contact input, .contact textarea {
   text-align: center;
-  font-family: exo;
+  font-family: "exo";
   width: 300px;
   color: #a6a6a6;
   padding: 5px;
@@ -826,7 +826,7 @@ body.navigation-is-open .menu-burger {
   .post-title a,
   .post-meta a {
     text-decoration: none;
-    font-family: exo;
+    font-family: "exo";
     color: #323232; }
     .post-title a:after,
     .post-meta a:after {
@@ -856,7 +856,7 @@ body.navigation-is-open .menu-burger {
   font-size: 1.5em; }
 
 .post-item {
-  font-family: exo;
+  font-family: "exo";
   padding-bottom: 2em;
   margin-bottom: 2em;
   border-bottom: 1px solid #f2f2f2; }

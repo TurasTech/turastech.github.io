@@ -9,7 +9,7 @@ input,
 label,
 select {
   display: block;
-  font-family: exo;
+  font-family: $exo-font-family;
   font-size: $base-font-size;
 }
 
@@ -34,7 +34,7 @@ select[multiple=multiple] {
   box-shadow: $form-box-shadow;
   font-weight: 200;
   box-sizing: border-box;
-  font-family: exo;
+  font-family: $exo-font-family;
   font-size: $base-font-size;
   margin-bottom: $small-spacing;
   padding: $base-spacing / 3;
@@ -95,7 +95,7 @@ select {
   input, textarea {
     text-align: center;
     // background-color: $dark-gray-color;
-    font-family: exo;
+    font-family: $exo-font-family;
     width: 300px;
     color: $light-gray-color;
     padding: 5px;
