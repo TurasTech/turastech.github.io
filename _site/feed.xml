@@ -5,30 +5,32 @@
     <description></description>
     <link>/</link>
     <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Apr 2016 10:21:41 -0400</pubDate>
-    <lastBuildDate>Sat, 02 Apr 2016 10:21:41 -0400</lastBuildDate>
+    <pubDate>Sat, 02 Apr 2016 16:23:02 -0400</pubDate>
+    <lastBuildDate>Sat, 02 Apr 2016 16:23:02 -0400</lastBuildDate>
     <generator>Jekyll v2.5.3</generator>
     
       <item>
         <title>Curiosity, Confusion, and Code</title>
-        <description>&lt;p&gt;The wonder of a child in a new environment is boundless. Their eyes wander through every corner of that which they can neither understand nor interpret. At the beginning, it’s all light, sound and movement with a mysterious rhythm. And though the complexity must seem infinite upon their arrival, they learn by deep instinct. ‘There is sense to be made of this’ seems to be their indefatigable mantra. The myriad nuanced sounds and shifting lights; scattered parts of a single, wonderful world, seemingly so disparate. But children naturally anticipate order, and so they learn without even trying. It just happens. Immersed in mystery, they observe until they can participate, and when they can, they experiment until they understand.&lt;/p&gt;
+        <description>&lt;p&gt;The wonder of a child in a new environment is boundless. Their eyes wander through every corner of that which they can neither understand nor interpret. At the beginning, it’s all light, sound and movement with a mysterious rhythm. And though the complexity must seem infinite upon their arrival, they learn by deep instinct. ‘There is sense to be made of this’ seems to be their indefatigable mantra. The myriad, nuanced sounds and shifting lights, seemingly so disparate, but parts of a single, wonderful world. But children naturally anticipate order, and so they learn without even trying. It just happens. Immersed in mystery, they observe until they can participate, and when they can, they experiment until they understand.&lt;/p&gt;
 
 &lt;p&gt;This instinct to learn is deeply rooted in every person from the day we’re born, but for most of us, its voice drowns in a deluge as we grow. With expectations mounting and responsibilities increasing, priorities shift as deadlines, bills and duties choke out those roots. They’re still there, just malnourished and weak.&lt;/p&gt;
 
-&lt;p&gt;I graduated from Grove City College in 2014, and felt placeless and purposeless for months. But a profound shift took place in December, and I think it is to the credit of one of my nephews. He was only 2 1/2 at the time, and still captivated by wonder. To him, everything was interesting, entertaining and beautiful. As I saw it, that same wonder seemed to resurrect in me, and at 22 years old, I became a curious again. I picked up Wealth of Nations and studied government, practiced calculus and examined nature as if for the first time. I remembered the joy of diving into complexity and using my mind to transform the foreign to familiar. And it was only about 2 months of this before I stumbled upon programming.&lt;/p&gt;
+&lt;p&gt;I graduated from Grove City College in the spring of 2014, and felt placeless and purposeless for months. But a profound shift took place in December, and I think it is to the credit of one of my nephews. He was only 2 1/2 at the time, and still captivated by wonder. To him, everything was interesting, entertaining and beautiful. As I observed this, that same wonder seemed to resurrect in me, and at 22 years old, I became a curious about the world again. I picked up Wealth of Nations and studied government, practiced calculus and examined nature, as if for the first time. I rediscovered the joy of diving into something new and using my mind to transform the foreign into the familiar. And it was only about 2 months of this before I stumbled upon programming.&lt;/p&gt;
 
-&lt;p&gt;I had taken a C++ course my freshman year of college, and it didn’t stick. I was drowning in code by the end of the semester, relieved after finishing the final exam. But this time around, curiosity was my formidable ally, and I was hooked. Work was sparse, and with all my free time, I spent week after week teaching myself C++. It was the ultimate learning opportunity. Complexity abounded, and order guaranteed. The only limiting factor was my motivation, and my desire to learn seemed to be insatiable. At the bottom of this post, I’ve appended a chart; it’s the the result of the past 13 months of programming.&lt;/p&gt;
+&lt;p&gt;I had taken a C++ course my freshman year of college, and it didn’t stick. I was drowning in code by the end of the semester, relieved to finish the final exam. But this time around, there were no deadlines, no expectations, and curiosity was my formidable ally. I was hooked. Work was sparse, and with all my free time, I spent week after week teaching myself C++. It was the ultimate learning opportunity. Complexity abounding, and order guaranteed. The only limiting factor was my motivation, and my desire to learn seemed to be insatiable. I’ve appended &lt;a href=&quot;#chart&quot;&gt;the result&lt;/a&gt; at the bottom of this post. &lt;a name=&quot;return&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;
-It’s as exhaustive as I could think of, covering everything from short rabbit trails I’ve explored, to grandiose mountains I’ve invested weeks into climbing. Every item came with more questions than answers, a surfeit of mistakes, a regular, hearty dose of confusion, and a fair number of times, frustration. But the dominant theme has undoubtedly been excitement. And fortunately, it just so happens that all these things which I find fascinating day after day after day are also part of a valuable skill set in our technological world. So all of this culminates in Turas Tech. In another post, I’ll write more about the what and why of Turas Tech specifically, but consider this an introduction to the heart of my business.&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;/p&gt;
+
+&lt;p&gt;It’s as exhaustive as I could think of, covering everything from short rabbit trails I’ve explored, to grandiose mountains I’ve invested weeks into climbing. Every topic came with more questions than answers, a surfeit of mistakes, a regular, hearty dose of confusion, and a fair number of times, frustration. But the dominant theme has undoubtedly been excitement. And fortunately, it just so happens that all these things which I find fascinating day after day after day are also part of a valuable skill set in our technological world. So all of this culminates in Turas Tech. In another post, I’ll write more about the what and why of Turas Tech specifically, but consider this an introduction to the heart of my business.&lt;/p&gt;
 
 &lt;p&gt;I’m Cody Weber, and learning is truly a passion and a lifestyle for me. I love learning loads of topics, far more than I have time for, but I’ve managed to focus my mental energy enough on programming to pick up some skills that might just be what you need, whether it’s an iPhone app, a website, a content management system, a backend database, or something entirely different that I may have to learn myself before I can help you out.&lt;/p&gt;
 
-&lt;p&gt;But I can honestly say I would love to work with you to build software that can effectively help you get where you’re trying to go. I don’t know everything there is to know, and I’m happy to be transparent about that, because I don’t think that’s always what matters. Albert Einstein himself said, “I have no special talent. I am only passionately curious.” And from my experience, curiosity can carry us a long way.&lt;/p&gt;
+&lt;p&gt;But I can honestly say I would love to work with you to build software that can effectively help you get where you’re trying to go. I don’t know everything there is to know, and I’m happy to be transparent about that, because I don’t think that’s always what matters. Albert Einstein himself said, “I have no special talent. I am only passionately curious.” And from my experience, curiosity can carry us a long way. &lt;a name=&quot;chart&quot;&gt;&lt;/a&gt;&lt;/p&gt;
 
-&lt;p&gt;&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p&gt;&lt;br /&gt;&lt;br /&gt;
+&lt;br /&gt;&lt;br /&gt;&lt;/p&gt;
 
-&lt;p&gt;I’ve provided links! In case your own curiosity is piqued :) Some lead to a homepage, some to tutorials, some to interesting articles, some are explanations, some are links to books - all resources I’ve used along the way. I’d recommend at least checking out one of them, just for a taste.&lt;/p&gt;
+&lt;p&gt;A chart of all the topics I’ve touched upon, to some degree. They’re all linked, in case your own curiosity is piqued :) Some lead to a homepage, some to tutorials, some to interesting articles, some are explanations, some are links to books. I’d recommend checking out at least one or two, just for a taste. When you’re done, &lt;a href=&quot;#return&quot;&gt; click here &lt;/a&gt; to continue reading.&lt;/p&gt;
 
 &lt;table&gt;
   &lt;tbody&gt;
@@ -108,7 +110,7 @@ It’s as exhaustive as I could think of, covering everything from short rabbit 
       &lt;td&gt;&lt;a href=&quot;http://greensock.com/gsap&quot;&gt;GSAP&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://css-tricks.com/using-svg/&quot;&gt;SVG&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://inkscape.org/en/download/&quot;&gt;Inkscape&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;XML&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;lexing&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
@@ -191,7 +193,7 @@ It’s as exhaustive as I could think of, covering everything from short rabbit 
     &lt;tr&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;browsing engines&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;parsing&lt;/a&gt;&lt;/td&gt;
-      &lt;td&gt;&lt;a href=&quot;http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/&quot;&gt;lexing&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a id=&quot;frozen-link&quot; href=&quot;https://www.youtube.com/watch?v=L0MK7qz13bU&quot; target=&quot;_blank&quot;&gt;Frozen&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model&quot;&gt;DOM&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://itunes.apple.com/us/app/resize-lite/id808230236?mt=12&quot;&gt;image resolution&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
@@ -241,6 +243,7 @@ It’s as exhaustive as I could think of, covering everything from short rabbit 
       &lt;td&gt;&lt;a href=&quot;https://www.npmjs.com/&quot;&gt;Node Package Manager&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SubmittingYourApp/SubmittingYourApp.html&quot;&gt;App validation&lt;/a&gt;&lt;/td&gt;
       &lt;td&gt;&lt;a href=&quot;http://www.h-schmidt.net/FloatConverter/IEEE754.html&quot;&gt;Binary, Hex, etc.&lt;/a&gt;&lt;/td&gt;
+      &lt;td&gt;&lt;a href=&quot;https://en.wikipedia.org/wiki/XML&quot;&gt;XML&lt;/a&gt;&lt;/td&gt;
     &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;

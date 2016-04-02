@@ -1,4 +1,4 @@
-jQuery(document).ready(function($){
+  jQuery(document).ready(function($){
 
   var isLateralNavAnimating = false;
 
@@ -21,7 +21,8 @@ $(window).load(function() {
   // (loaded == "false" || loaded == null) &&
 
   // if ( !(/Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent)) ) {
-    console.log("Hello there Mobile device!");
+  if ( document.URL == ("http://localhost:4000/") ) {
+
     var time = 1;
     var myTimeline = new TimelineMax({
       repeat: 0,
@@ -33,10 +34,6 @@ $(window).load(function() {
     var slowFadeText = document.getElementsByClassName("slow-fade");
 
     myTimeline.timeScale(25);
-
-    function randomNumber(min, max) {
-      return Math.floor(Math.random() * (1 + max - min) + min);
-    }
 
     for (var i = 0; i < paths.length; i++) {
       myTimeline.set(paths[i], {
@@ -57,24 +54,57 @@ $(window).load(function() {
     }
 
     for(var i=0; i < paths.length; i++) {
-      myTimeline.to(paths[i], 80, {
-        strokeDashoffset: 0,
+      myTimeline.to(paths[i], 120, {
+        strokeDashoffset: -600,
         ease: Sine.easeOut
       }, +7),
 
-      myTimeline.to(paths[i], 50, {
+      myTimeline.to(paths[i], 120, {
         fillOpacity: 1,
         strokeOpacity: 0
-      }, +87),
+      }, +50),
 
       myTimeline.to(slowFadeText, 80, {
         opacity: 1,
         ease: Sine.easeIn
-      }, +120);
+      }, +100);
+    }
+  } else if ( document.URL == "http://localhost:4000/about/" ) {
+    var aboutTimeline = new TimelineMax({
+      repeat: 0,
+      yoyo: false
+    });
+
+    aboutTimeline.timeScale(25);
+
+    var pToFade = $("#aboutHeader span");
+
+    for (var i=0; i<pToFade.length; ++i) {
+      aboutTimeline.set(pToFade[i], {
+        opacity: 0
+      });
     }
 
+    aboutTimeline.to(pToFade[0], 30, {
+      opacity: 1
+    }, +10),
+
+    aboutTimeline.to(pToFade[1], 30, {
+      opacity: 1
+    }, +40),
+
+    aboutTimeline.to(pToFade[2], 30, {
+      opacity: 1
+    }, +70),
+
+    aboutTimeline.to(pToFade[3], 30, {
+      opacity: 1
+    }, +100);
+
+  }
+
     // sessionStorage.setItem('animationLoaded', 'true');
-  // } 
+  // }
   // else {
   //   var hiddenElement = document.getElementsByClassName("hideBeforeAnimation");
   //   hiddenElement[0].style.opacity = 1;

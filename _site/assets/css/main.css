@@ -521,7 +521,7 @@ body.home-intro {
   padding: 0 2em;
   text-align: center;
   color: #d9d9d9;
-  background: #232323;
+  background: linear-gradient(160deg, #232323, #002835);
   overflow: hidden; }
 
 .intro-in {
@@ -538,6 +538,8 @@ body.home-intro {
   @media screen and (min-width: 1024px) {
     .intro-in {
       padding: 9em 0; } }
+  .intro-in span {
+    opacity: 0; }
 
 .intro-title,
 .post-header .post-title {
@@ -825,7 +827,7 @@ body.navigation-is-open .menu-burger {
     color: #323232; }
     .post-title a:after,
     .post-meta a:after {
-      content: '➝';
+      content: '↝';
       display: inline-block;
       left: -5px;
       opacity: 0;
@@ -838,7 +840,7 @@ body.navigation-is-open .menu-burger {
     .post-meta a:hover,
     .post-meta a:focus,
     .post-meta a:active {
-      color: #323232; }
+      color: #00b0e7; }
       .post-title a:hover:after, .post-title a:focus:after, .post-title a:active:after,
       .post-meta a:hover:after,
       .post-meta a:focus:after,
@@ -878,6 +880,11 @@ body.navigation-is-open .menu-burger {
       .post-content a:hover:after, .post-content a:focus:after, .post-content a:active:after {
         opacity: 1;
         left: 10px; }
+
+#frozen-link:hover span {
+  display: none; }
+#frozen-link:hover:before {
+  content: "Kudos to you for being thorough and finding this one ;)"; }
 
 .highlight {
   padding: 0;
