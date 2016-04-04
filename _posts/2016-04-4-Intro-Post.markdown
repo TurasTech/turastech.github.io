@@ -42,28 +42,32 @@ iOS Tools and Frameworks
 
 |<a href="https://en.wikipedia.org/wiki/Automatic_Reference_Counting">ARC</a>|<a href="http://www.paintcodeapp.com/news/ultimate-guide-to-iphone-resolutions">pixels, points, units</a>|<a href="https://developer.apple.com/library/ios/documentation/EventHandling/Conceptual/EventHandlingiPhoneOS/GestureRecognizer_basics/GestureRecognizer_basics.html">Gesture Recognizers</a>|<a href="https://developer.apple.com/library/ios/documentation/IDEs/Conceptual/AppDistributionGuide/SubmittingYourApp/SubmittingYourApp.html">App validation</a>|
 
-<a href="https://developer.apple.com/library/ios/documentation/ToolsLanguages/Conceptual/Xcode_Overview/UnitTesting.html">unit testing</a>|<a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html">MVC Design</a>|
+<a href="https://developer.apple.com/library/ios/documentation/ToolsLanguages/Conceptual/Xcode_Overview/UnitTesting.html">unit testing</a>|<a href="https://developer.apple.com/library/ios/documentation/General/Conceptual/DevPedia-CocoaCore/MVC.html">MVC Design</a>|<a href="http://rypress.com/tutorials/objective-c/index">Objective-C</a>|
 
 
 <br><br>
 
 
-Web Design Tools and Libraries
+Web Coding Tools, Libraries, etc.
 ---
 
 |---:|---:|---:|---:|
+|<a href="https://www.youtube.com/watch?v=40b6lqkpCUI">Internet Implementation</a>|<a href="https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a>|<a href="http://htmldog.com/">HTML</a>|<a href="http://htmldog.com/">CSS</a>|
+
 |<a href="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/">Browsers</a>|<a href="https://en.wikipedia.org/wiki/XML">XML</a>|<a href="https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Transforms/Using_CSS_transforms">Transforms</a>|<a href="https://jquery.com/">jQuery</a>|
 
 |<a href="http://greensock.com/gsap">GSAP</a>|<a href="http://www.json.org/">JSON</a>|<a href="http://getbootstrap.com/">Bootstrap</a>|<a href="http://lifehacker.com/five-best-text-editors-1564907215">text editors</a>|
 
 |<a href="https://atom.io/">Atom</a>|<a href="https://developer.mozilla.org/en-US/docs/Web/API/Document_Object_Model">DOM</a>|<a href="http://www.html5rocks.com/en/tutorials/internals/howbrowserswork/">browsing engines</a>|<a href="https://www.namecheap.com/">web domains & hosting</a>|
 
-|<a href="https://www.youtube.com/watch?v=40b6lqkpCUI">Internet Implementation</a>|
+|<a href="https://www.ruby-lang.org/en/">Ruby</a>|<a href="https://css-tricks.com/sass-vs-less/">Less</a>|<a href="https://css-tricks.com/sass-vs-less/">Sass</a>|
+
+
 
 
 <br><br>
 
-Source Control and Management Tools
+Source Control, Management Tools and Systems
 ---
 
 |---:|---:|---:|---:|
@@ -91,17 +95,6 @@ Back End, Databases, and Data Persistence
 
 |<a href="https://www.youtube.com/watch?v=CDxaRfwzFrs">servers</a>|<a href="https://parse.com/docs/cloudcode/guide">server side code</a>|
 
-<br><br>
-
-
-Languages and Whatnot
----
-
-|---:|---:|---:|---:|
-|<a href="http://www.learncpp.com/">C++</a>|<a href="https://www.ruby-lang.org/en/">Ruby</a>|<a href="https://css-tricks.com/sass-vs-less/">Less</a>|<a href="https://css-tricks.com/sass-vs-less/">Sass</a>|
-
-|<a href="https://developer.mozilla.org/en-US/Learn/Getting_started_with_the_web/JavaScript_basics">JavaScript</a>|<a href="http://htmldog.com/">HTML</a>|<a href="http://htmldog.com/">CSS</a>|<a href="http://rypress.com/tutorials/objective-c/index">Objective-C</a>|
-
 
 <br><br>
 
@@ -126,7 +119,7 @@ Other
 
 |<a href="http://stackoverflow.com/questions/17253545/scripting-language-vs-programming-language">scripting languages</a>|<a href="http://stackoverflow.com/questions/17253545/scripting-language-vs-programming-language">system languages</a>|<a href="http://www.learncpp.com/cpp-tutorial/81-welcome-to-object-oriented-programming/">object oriented programming</a>|<a id="frozen-link" href="https://www.youtube.com/watch?v=L0MK7qz13bU" target="_blank">Frozen</a>|
 
-|<a href="http://www.miraclesalad.com/webtools/md5.php">cryptography</a>|<a href="http://www.umiacs.umd.edu/~jimmylin/publications/Busch_etal_ICDE2012.pdf">real-time search</a>|<a href="http://www.h-schmidt.net/FloatConverter/IEEE754.html">Binary, Hex, etc.</a>|
+|<a href="http://www.miraclesalad.com/webtools/md5.php">cryptography</a>|<a href="http://www.umiacs.umd.edu/~jimmylin/publications/Busch_etal_ICDE2012.pdf">real-time search</a>|<a href="http://www.h-schmidt.net/FloatConverter/IEEE754.html">Binary, Hex, etc.</a>|<a href="http://www.learncpp.com/">C++</a>|
 
 
 
