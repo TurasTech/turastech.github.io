@@ -3,7 +3,7 @@ layout: post
 title:  "Curiosity, Confusion, and Code"
 subtitle: "\"I have no special talent. I am only passionately curious.\" <br> -Albert Einstein"
 permalink:  "welcome"
-date:   2016-3-31 3:20:00 -0200
+date:   2016-4-4 3:20:00 -0200
 categories: learning
 ---
 
@@ -11,7 +11,7 @@ The wonder of a child in a new environment is boundless. Their eyes wander throu
 
 This instinct to learn is deeply rooted in every person from the day we're born, but for most of us, its voice drowns in a deluge as we grow. With expectations mounting and responsibilities increasing, priorities shift as deadlines, bills and duties choke out those roots. They're still there, just malnourished and weak.
 
-I graduated from Grove City College in the spring of 2014, and felt placeless and purposeless for months. But a profound shift took place in December, and I think it is to the credit of one of my nephews. He was only 2 1/2 at the time, and still captivated by wonder. To him, everything was interesting, entertaining and beautiful. As I observed this, that same wonder seemed to resurrect in me, and at 22 years old, I became a curious about the world again. I picked up Wealth of Nations and studied government, practiced calculus and examined nature, as if for the first time. I rediscovered the joy of diving into something new and using my mind to transform the foreign into the familiar. And it was only about 2 months of this before I stumbled upon programming.
+I graduated from Grove City College in the spring of 2014, and felt placeless and purposeless for months. But a profound shift took place in December, and I think it is to the credit of one of my nephews. He was only 2 1/2 at the time, and still captivated by wonder. To him, everything was interesting, entertaining and beautiful. As I observed this, that same wonder seemed to resurrect in me, and at 22 years old, I became curious about the world again. I picked up Wealth of Nations and studied government, practiced calculus and examined nature, as if for the first time. I rediscovered the joy of diving into something new and using my mind to transform the foreign into the familiar. And it was only about 2 months of this before I stumbled upon programming.
 
 I had taken a C++ course my freshman year of college, and it didn't stick. I was drowning in code by the end of the semester, relieved to finish the final exam. But this time around, there were no deadlines, no expectations, and curiosity was my formidable ally. I was hooked. Work was sparse, and with all my free time, I spent week after week teaching myself C++. It was the ultimate learning opportunity. Complexity abounding, and order guaranteed. The only limiting factor was my motivation, and my desire to learn seemed to be insatiable. I've appended <a href="#chart">the result</a> at the bottom of this post. <a name="return"></a>
 
