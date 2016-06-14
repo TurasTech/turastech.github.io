@@ -1,21 +1,19 @@
 ---
 layout: post
 title:  "Exploration and 'Turas Tech'"
-subtitle: "Learning precedes comprehension."
-permalink:  "welcome"
-date:   2016-14-6 3:20:00 -0200
+subtitle: "\"It gives a tremendous level of self-confidence, <br> that through exploration and learning one can understand <br> seemingly very complex things in one’s environment.\" <br> -Steve Jobs"
+permalink:  "blog2"
+date:   2016-6-14 3:20:00 -0200
 categories: learning
 ---
 
 A resilient paradox that we all run into in life is that of position and experience. It is commonly encountered as recent graduates, like myself, seek employment, and it goes something like this:
 
 *Proud graduate seeking employment peruses employment ad.*
-<i> 
 
-Requirements: Advanced aeronautical dynamics training, 3+ years constructing 	rocket engines (ideally with tools in your basement), experience working on ground-breaking research with international teams, etc., etc. 
+*<b>Requirements: Advanced aeronautical dynamics training, 3+ years constructing 	rocket engines (ideally with tools in your basement), experience working on ground-breaking research with international teams, etc., etc.</b>* 
 
-Additional skills: Ancient Mandarin manuscripts, thermodynamic acceleration principles, hardware dialect manipulation, etc., etc.
-</i>
+*<b>Additional skills: Ancient Mandarin manuscripts, thermodynamic acceleration principles, hardware dialect manipulation, etc., etc.</b>*
 
 *Once proud graduate commences wallowing in self-pity.*
 
@@ -27,14 +25,20 @@ Though I'm no expert, I'm fairly certain employment ads are meant to be exaggera
 
 (I'd like to note here: I have nothing against the formal job world with its employment ads, and the deadlines and demands of a serious job. They're necessary for an order of their own, and I respect that. I'm just using that structure as a metaphor.)
 
-<em> ******************** </em>
+***
 
 Over the past 16 months or so, I've spent the better part of my work hours purely learning. I've discovered a helpful, seemingly obvious axiom (as many are). Learning precedes comprehension. When first introduced to a topic, it's almost complete confusion. I don't know where I am. I don't know what I'm reading. Most of the significant words mean nothing to me, because they depend on other significant words for their meaning. When I'm trying learn, my browser bar always looks like this:
+
+<img src="/images/TabBar.png" style="width:2500px; height:30px; margin: 0;">
 
 
 That's 27 tabs by my count. And I sometimes have more than one browser session open. Notice how many google tabs there are – 12. I google hundreds of times a day when I learn. The other 15 web sites – programming documentation, online portals, blog tutorials, local servers, and stack overflow (hallelujah). I'll also have numerous other programs open. Postman for HTTP requests. Xcode for iOS development. Atom for text editing (usually multiple tabs of source code). Source tree for version control. Evernote for notes and outlines I've created. Maybe a database visualization tool.
 
-In all this, there's a fairly systematic approach. I see it like diving into the ocean – you can't get familiar with it until you explore. You probably won't understand most of what you see, or even know how to interpret it. But even though there isn't comprehension yet, there is learning. Once you see the same trends appear again and again over time, they get shaped in your mind. You learn what's common, and what's not. What's out there and what's not. What's impressive and what's not. What's rare. What's valuable. Important. Despised. Insignificant. Wonderful. This is paramount for comprehension. It's the time during which a grid is created in your mind, into which you can store information. 
+In all this, there's a fairly systematic approach. I see it like diving into the ocean – you can't get familiar with it until you explore. 
+
+<img src="/images/Ocean.jpeg" style="width:320px; height:320px; padding: 12px; float: right;">
+
+You probably won't understand most of what you see, or even know how to interpret it. But even though there isn't comprehension yet, there is learning. Once you see the same trends appear again and again over time, they get shaped in your mind. You learn what's common, and what's not. What's out there and what's not. What's impressive and what's not. What's rare. What's valuable. Important. Despised. Insignificant. Wonderful. This is paramount for comprehension. It's the time during which a grid is created in your mind, into which you can store information. 
 
 Information in a field largely makes sense in relation to other information in that field. I can only explain where my house is to you, if you have a familiarity with the grid that is my town. Of course I could give you specific directions, but then you're not learning, you're just following directions. You can arrive at my house without knowing how to navigate anywhere else. You would learn to navigate by spending time traversing the town, and creating, quite literally, a mental grid. This learning is natural, necessary, and can be a lot of fun. Eventually the things you see start to connect, meaning and order evolve from chaos, and comprehension is established.
 
