@@ -36,7 +36,7 @@ That's 27 tabs by my count. And I sometimes have more than one browser session o
 
 In all this, there's a fairly systematic approach. I see it like diving into the ocean – you can't get familiar with it until you explore. 
 
-<img src="/images/Ocean.jpeg" style="width:320px; height:320px; padding: 12px; float: right;">
+<a href="https://unsplash.com/photos/cfR-V1QuEKw"><img src="/images/Ocean.jpeg" style="width:320px; height:320px; padding: 12px; float: right;" alt="Seref Yucar"></a>
 
 You probably won't understand most of what you see, or even know how to interpret it. But even though there isn't comprehension yet, there is learning. Once you see the same trends appear again and again over time, they get shaped in your mind. You learn what's common, and what's not. What's out there and what's not. What's impressive and what's not. What's rare. What's valuable. Important. Despised. Insignificant. Wonderful. This is paramount for comprehension. It's the time during which a grid is created in your mind, into which you can store information. 
 
