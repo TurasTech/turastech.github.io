@@ -27,7 +27,7 @@ Though I'm no expert, I'm fairly certain employment ads are meant to be exaggera
 
 ***
 
-Over the past 16 months or so, I've spent the better part of my work hours purely learning. I've discovered a helpful, seemingly obvious axiom (as many are). Learning precedes comprehension. When first introduced to a topic, it's almost complete confusion. I don't know where I am. I don't know what I'm reading. Most of the significant words mean nothing to me, because they depend on other significant words for their meaning. When I'm trying learn, my browser bar always looks like this:
+Over the past 16 months or so, I've spent the better part of my work hours purely learning. I've discovered a helpful, seemingly obvious axiom (as many are). Learning precedes comprehension. When first introduced to a topic, it's almost complete confusion. I don't know where I am. I don't know what I'm reading. Most of the significant words mean nothing to me, because they depend on other significant words for their meaning. When I'm trying learn, my browser bar always looks like this (I just took this screenshot):
 
 <img src="/images/TabBar.png" style="width:2500px; height:30px; margin: 0;">
 
